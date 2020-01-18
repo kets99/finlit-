@@ -1,0 +1,27 @@
+{"quizlist":[
+  
+	{
+	"question":"Income Tax is charged in",
+	"option1":"Financial Year",
+	"option2":"Assessment Year",
+	"option3":"Previous Year",
+	"option4":"Accounting Year",
+	"correct" : "1",
+	"q_level" : "b",
+	"q_type" : "null"
+	},
+	{
+	"question":"The year in which the income is earned is known as",
+	"option1":"Previous Year",
+	"option2":"Bogota",
+	"option3":"San Juan"
+	},
+	{
+	"question":"Which country is long and thin?",
+	"option1":"Chile",
+	"option2":"Uruguay",
+	"option3":"Colombia"
+	}
+
+]
+}

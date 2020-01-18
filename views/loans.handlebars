@@ -4,7 +4,9 @@
   <head>
     <title>Fin/lit &mdash; Website Template by Colorlib</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!--     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ -->        <meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
 
     <link href="https://fonts.googleapis.com/css?family=DM+Sans:300,400,700|Indie+Flower" rel="stylesheet">
     
@@ -19,7 +21,13 @@
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/quiz.css">
-
+    <script src="js/jquery.js"></script>
+    <script src="js/controller.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+   
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
@@ -45,23 +53,32 @@
         <div class="site-mobile-menu-body"></div>
       </div>
 
-
-
       <header class="site-navbar site-navbar-target" role="banner">
 
         <div class="container mb-3">
           <div class="d-flex align-items-center">
             <div class="site-logo mr-auto">
-              <a href="index.html">Fin/lit<span class="text-primary">.</span></a>
+              <a href="/">Fin/lit<span class="text-primary">.</span></a>
             </div>
-         
-          </div>
+         </div>
         </div>
       </header>
 
-
 <div class="site-section bg-info">
-  <div class="container">
+
+
+
+<div id="topbar">HTML5 MCQ Quiz</div>
+<div class="spacer"></div>
+
+<div id="navContent">
+
+<div id="game1"></div>
+<div id="game2"></div>
+</div>
+ 
+
+<!--   <div class="container">
     <div class="modal-dialog">
       <div class="modal-content">
          <div class="modal-header">
@@ -95,7 +112,7 @@
 </div>
           <a href="/"  class="element-animation1 btn btn-lg btn-primary ">Back</a>
 
-</div>
+</div> -->
 
 
         <div class="row pt-5 mt-5 text-center">
